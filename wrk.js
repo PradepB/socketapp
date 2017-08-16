@@ -3,11 +3,11 @@ var app = express()
 var server = require('http').createServer(app);
 var mongoose = require('mongoose');
 var schema = mongoose.Schema;
-mongoose.connect('mongodb://127.0.0.1:27017/mywrk', function (err) {
-    if (err) {
+mongoose.connect('mongodb://ebasicsdemo:isger0ltxGhoZrnL@ebasicsdemo-shard-00-00-uxkte.mongodb.net:27017,ebasicsdemo-shard-00-01-uxkte.mongodb.net:27017,ebasicsdemo-shard-00-02-uxkte.mongodb.net:27017/ebasicsdemo?ssl=true&replicaSet=EbasicsDemo-shard-0&authSource=admin',function(err){
+    if(err){
         console.log('error to connecet database' + err)
     }
-    else {
+    else{
         console.log('db connected')
     }
 })
