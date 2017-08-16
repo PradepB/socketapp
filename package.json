@@ -1,0 +1,26 @@
+{
+  "name": "socketwrk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wrk.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.10.8",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PradepB/webapp.git"
+  },
+  "author": "Pradep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PradepB/webapp/issues"
+  },
+  "homepage": "https://github.com/PradepB/webapp#readme"
+}
